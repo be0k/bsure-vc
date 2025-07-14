@@ -1,24 +1,28 @@
 body {
   font-family: 'Noto Sans', sans-serif;
 }
+
+.vc-section {
+  width: fit-content;
+  margin: 0 auto; /* 가로 가운데 정렬 */
+  padding: 20px;
+}
+
 .vc-heading {
-  margin-top: 40px;
+  text-align: center;
   font-size: 1.4em;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 6px;
+  margin-bottom: 20px;
 }
 
 .vc-table {
-  width: 100%;
   border-collapse: collapse;
-  margin-top: 10px;
-  margin-bottom: 40px;
+  width: 100%;
 }
 
 .vc-header-row th,
 .vc-sample-row td {
   border-bottom: 1px solid #ddd;
-  padding: 12px;
+  padding: 10px 20px;
   text-align: center;
 }
 
@@ -27,7 +31,9 @@ body {
   font-weight: bold;
 }
 
-
+.vc-audio {
+  width: 160px;
+}
 
 .vc-sample-label {
   font-weight: bold;
