@@ -1,6 +1,37 @@
 body {
   font-family: 'Noto Sans', sans-serif;
 }
+.vc-heading {
+  margin-top: 40px;
+  font-size: 1.4em;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 6px;
+}
+
+.vc-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.vc-header-row th,
+.vc-sample-row td {
+  border-bottom: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.vc-header-row th {
+  background-color: #f8f8f8;
+  font-weight: bold;
+}
+
+
+
+.vc-sample-label {
+  font-weight: bold;
+}
 
 
 .footer .icon-link {
